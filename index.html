@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=yes,
+		initial-scale=1.0" />
+
+	<title>Rooms</title>
+
+	<style>
+	@import 'page.css';
+	</style>
+</head>
+
+<body>
+
+	<div class="my-page" id="page-default">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/keaLogo.jpg" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+		<h1>Welcome to KEA</h1>
+		</div>
+	</div>
+
+	<div class="my-page" id="canteenDiv">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/canteenBanner.jpeg" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1><b>Canteen</b></h1>
+			<a href="canteenMenu/menu.html"><img src="photos/button_menu.png"/></a><br>
+			<img src="photos/button_daily-offers.png"/><br><br>
+			<a href="schedule/schedule.html"><img src="photos/button_last-class-schedule.png"/></a>
+	</div>
+
+	<div class="my-page" id="libraryDiv">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/library.jpg"/>
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()"/>
+		</div>
+		<div class="my-content">
+			<h1>Library</h1>
+				<img src="photos/button_my-books.png"/>
+				<img src="photos/button_favorites.png"/><br><br>
+				<img src="photos/button_library-collection.png"/>
+		</div>
+	</div>
+
+	<div class="my-page" id="classroomDiv">
+		<div class="my-header">
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content"><br><br>
+			<h1>Classroom B102</h1>
+			<a href="schedule/schedule.html"><img src="photos/button_schedule.png"></a><br><br>
+			<img src="photos/button_calendar.png"/><br><br>
+			<img src="photos/button_projects.png"/>
+			
+		</div>
+	</div>
+
+	<script src="lib/jquery.js"></script>
+	<script src="cordova.js"></script>
+	<script src="app.js"></script>
+
+</body>
+</html>
